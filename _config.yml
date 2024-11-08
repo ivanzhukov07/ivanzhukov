@@ -1,0 +1,403 @@
+repository: ivanzhukov07/ivanzhukov
+
+plugins:
+  - jekyll-seo-tag
+
+default_lang: "en"
+baseurl: ""
+darkmode: false
+
+# Social links
+# twitter_username: 
+# github_username:  
+telegram_username: ivanzhukov0711
+tableau_username: ivan.zhukov
+credly_username: ivan-zhukov
+# dribbble_username:
+# facebook_username:
+# flickr_username:
+# instagram_username: 
+linkedin_username: ivan-zhukov
+# pinterest_username: 
+# youtube_username:
+
+email_title: Email
+email: zhiv88@gmail.com
+# phone_title: "Phone"
+# phone: "032142"
+# website_title: "Website"
+# website: "test.com"
+favicon: "/images/favicon.ico"
+
+languages:
+  en:
+    header:
+      name: Ivan Zhukov
+      title: Data Analyst
+      download_cv: "Download my CV:"
+    about:
+      about_title: About Me
+      about_profile_image: images/icon.jpg
+      about_content: |
+        Hi, I'm Ivan Zhukov. 
+  
+        I have been working in banking analytics for seven years, specializing 
+        in portfolio analysis and CRM. During this time, I have progressed from working 
+        with <mark>Excel</mark>, mastered <mark>SQL</mark>, and now I use <mark>Python</mark> and <mark>Spark</mark>, continuously enhancing 
+        my technological skills. I prefer to work as an analyst with a focus on technical 
+        functionality: programming, working with databases, creating visualizations, 
+        and generating reports. I enjoy solving complex problems and developing effective
+        analytical tools that deliver measurable business impact.
+
+        Proficient in:  <mark>SQL</mark>,  <mark>Python</mark>
+        
+        Tools Mastery:  <mark>Apache Spark</mark>,  <mark>Jupyter Notebook</mark>,  <mark>Excel</mark>,  <mark>Tableau</mark>
+
+        I am currently working remotely but am open to new opportunities in the United Kingdom
+        or in a remote format.
+
+    content:
+      - title: Experience
+        layout: list
+        content:
+          - layout: left
+            border: weak
+            title: Gidfinance
+            sub_title: Data Analyst
+            caption_1: Fintech B2B
+            caption: July 2024 - Present
+            description: |
+              <b>A finance startup focused on data enrichment and lead generation 
+              for microfinance companies</b>
+
+              I handle regular reports, A/B testing, and ad hoc projects, plus 
+              I track user activity in online channels with an eye on risk indicators.
+
+          - layout: left
+            border: weak
+            title: oneFactor
+            sub_title: Data Analyst
+            caption_1:  Fintech B2B
+            caption: January 2021 - February 2024
+            description: |
+              <b>A high-tech company providing scoring and lead generation for banks and 
+              microfinance organisations</b>
+
+              Created detailed daily reports monitoring the efficiency of lead generation campaigns for 10+ diverse clients, tracking key metrics to ensure data-driven decisions were made to improve marketing strategies.
+              
+              Revised campaign logic and signal scope, leading to the development of 45 new data pipelines, expanding the company’s repository to 200 pipelines. This enhanced data flow and campaign effectiveness.
+              
+              Addressed specific customer requests by conducting over 30 detailed analyses to check the accuracy of conversion funnels to identify areas for improvement, with the findings used to refine offers and services.
+              
+              Enhanced SMS campaigns by creating 16 new SMS templates, with 9 designed to better target different customer segments and 7 aimed at specific audiences. This approach led to a 3% boost in conversion rates.
+              
+              Facilitated pre-sales activities, preparing data for pilot campaigns, ensuring client requirements were met. Total customers increased from 13 to 30 and annual revenue from $10m to $16m between 2021 and 2024.
+
+          - layout: left
+            border: weak
+            title: Open Bank
+            sub_title: Data Analyst
+            caption_1: Risk Department. Retail Credit
+            link: www.open.ru
+            caption: September 2019 - January 2021
+            description: |
+              <b>One of the top 10 largest banks in Russia</b>
+
+              Identified and rectified a critical error in the credit conveyor system within the CRM integration, resolving services for 110,000 clients and leading to an approximate financial recovery of $3m over six months.
+              
+              Developed and tested guidance for the PACL credit conveyor, expediting client approvals and offers. This collaboration with IT and Tech accelerated analysis processes and ensured swift client batch approvals.
+              
+              Devised a revenue calculation method based on peak debt load, reducing gross loss risk by 0.4% for clients with low credit scores, considering full and partial loan repayments to enhance risk management strategies.
+              
+              Conducted comprehensive research on internal fraud within bank offices, uncovering six suspicious activities and prompting internal audits, leading to strengthened internal control mechanisms and security.
+              
+              Mentored a group of Data Analyst interns, training them in SQL, risk analysis, and core business processes.
+
+          - layout: left
+            border: weak
+            title: Renaissance Insurance
+            sub_title: Data Analyst
+            caption_1: CRM Department
+            link: www.renins.ru
+            caption: August 2018 – August 2019
+            description: |
+              <b>A leading Russian insurance company specialising in auto, real estate, and health insurance</b>
+
+              Automated call centre list preparation with SQL scripts, reducing prep time from 1.5 weeks to 4 days.
+              
+              Developed four SSRS reports for the Digital Insurance division, including sales funnel diagrams, streamlining data reporting.
+
+          - layout: left
+            border: weak
+            title: Alfa Bank
+            sub_title: Data Analyst
+            caption_1: Financial Department CIB
+            link: www.alfabank.ru
+            caption: December 2017 - August 2018
+            description: |
+              <b>One of the top 10 banks in Russia and a pioneer in innovative technological solutions to the Russian financial sector</b>
+
+              Delivered an automated ROI calculator for individual CIB clients and segments, utilising a prefab methodology to implement the script in SQL, leading to streamlined calculations and portfolio assessments.
+              
+              Managed workload assessments for CIB Salesforce managers in collaboration with the HR CIB department, constructing an SSRS report with daily updates and recommendations to optimise workforce efficiency.
+
+          - layout: left
+            title: Zenit Bank
+            sub_title: Data Analyst
+            caption_1: SME Department
+            link: www.zenit.ru
+            caption: October 2016 - December 2017
+            description: |
+              <b>Regional bank with a strong position in private banking, servicing both individuals and businesses</b>
+                
+              Implemented an automated system to calculate incentive bonuses for attraction and support managers
+              based on workloads, reducing calculation time from one day to several hours.
+              
+              Reduced weekly data prep time from 2 days to 3 hrs by automating the reporting of SME portfolios (assets, liabilities, NPLs), enabling analysis of indicator dynamics based on data granularity and network geography.
+              
+              Prepared tariff calculation tools for the sales department, helping to maximise efficiency and accuracy of loan parameter calculations.
+              
+              Cross-collaborated on the development of competitor analysis for financial products, enhancing sales department productivity and the bank’s competitiveness in the market
+
+      - title: Education
+        layout: list
+        content:
+          - title: Bauman University
+            sub_title: Master of Engineering in Nuclear Power Technology
+            sub_title_2: Master of Management in Industrial Management
+            caption: 2007 - 2013
+            description: |
+              My education gave me a deep technical foundation with a focus on practical skills. I learned to solve complex problems quickly and continuously acquire new knowledge to stay current with modern technologies.
+              
+              I studied at Bauman Moscow State Technical University — one of the best technical and engineering universities in the country. In 2013, I earned two specialist Masters’ degrees  in technical and economic fields.
+              
+              Over these six years, I studied engineering disciplines, programming, statistics, as well as economic subjects.
+
+      - title: When I'm Not Coding
+        layout: text
+        content: |
+          When I’m not coding, I love keeping up with the latest in data and tech. I’m always reading Medium articles or taking online courses to stay sharp, and right now, I’m especially into data visualisation and BI best practices. I follow a few top BI experts on social media, which helps me stay up-to-date with new trends.
+      
+          I’m also curious about machine learning and have taken a few courses on it. I’m thinking about launching my own project in this area to apply what I’ve learned.
+          
+          Outside work, I’m all about family time—I spend a lot of my free time exploring southern Britain with my son. We enjoy the parks, the countryside, and just soaking up the local culture.
+
+
+  ru:
+    header:
+      name: Иван Жуков
+      title: Аналитик данных
+      download_cv: "Скачать резюме:"
+    about:
+      about_title: Обо мне
+      about_profile_image: images/icon.jpg
+      about_content: |
+        Привет, меня зовут Иван Жуков. 
+
+        Уже семь лет я работаю в банковской аналитике, специализируясь на портфельном анализе и CRM. 
+        За это время я прошёл путь от работы в <mark>Excel</mark>, освоил <mark>SQL</mark>, 
+        а сейчас использую <mark>Python</mark> и <mark>Spark</mark>, постоянно совершенствуясь в технологиях. 
+        Я предпочитаю работать как аналитик с упором на технический функционал: программирую, работаю с базами данных,
+        создаю визуализации и формирую отчёты. Мне нравится решать комплексные задачи и создавать эффективные 
+        аналитические инструменты, которые приносят измеримый эффект для бизнеса.
+        
+        Мой технический стек: <mark>SQL</mark>, <mark>Python</mark>, <mark>Apache Spark</mark>, <mark>Excel</mark>, 
+        <mark>Tableau</mark>
+        
+        Сейчас я работаю удаленно, но открыт для новых возможностей в Великобритании или в удалённом формате.
+  
+    content:
+      - title: Опыт работы
+        layout: list
+        content:
+          - layout: left
+            border: weak
+            title: Gidfinance
+            sub_title: Аналитик данных
+            caption_1: Финтех B2B
+            caption: Июль 2024 - по н.в.
+            description: |
+              <b>Финтех стартап, специализирующийся на обогащении данных 
+              и лидогенерации для микрофинансовых организаций.</b>
+              
+              Решаю Ad Hoc задачи и анализирую активность пользователей в интернет-каналах 
+              с учётом рисковых показателей, участвую в проведении A/B тестов, занимаюсь построением регулярной отчетности
+
+          - layout: left
+            border: weak
+            title: OneFactor
+            sub_title: Аналитик данных
+            caption_1: Финтех B2B
+            caption: Январь 2021 - Февраль 2024
+            description: |
+              <b>Высокотехнологичная компания, входящая в группу МегаФон, специализирующаяся на скоринговых услугах 
+              и лидогенерации на основе внешних данных для банков и микрофинансовых организаций.</b>
+
+              Создал подробные ежедневные отчеты по мониторингу эффективности кампаний в части 
+              лидогенерации для более чем 10 различных клиентов. Показатели для мониторинга и анализа: 
+              объем отправок, стоимость выдачи, конверсия прокси, каннибализация сигналов, выполнение 
+              плана отправки лидов.
+
+              Улучшил текущие кампании. Провёл ревизию логики компании и оптимизировал охват сигналов
+              на основе мониторинга и разовых исследований (удалил менее эффективные сигналы и 
+              добавил новые). Разработал новые пайплайны для обработки данных различных 
+              телекоммуникационных данных (автоматическая обработка в Spark для бизнес-подхода). 
+              Внедрил 45 пайплайнов для различных типов сигналов, 
+              общее количество текущих пайплайнов в репозитории продукта — 200.
+
+              Обрабатывал разовые запросы клиентов, проведя более 30 детальных анализов для проверки 
+              точности конверсионных воронок и выявления возможностей для их улучшения. 
+              Полученные результаты использовались для совершенствования предложений и услуг.
+
+              Разработал новые типы SMS-сообщений для описания клиентского опыта в работе 
+              с банками, МФО и страховыми компаниями (проанализировал и разработал 16 типов сигналов 
+              из 43), 9 из них были разработаны для более точного таргетинга различных сегментов клиентов, 
+              а 7 – для конкретных аудиторий. 
+
+              Выполнял предпродажных мероприятия, направленные на быстрое тестирование гипотез, 
+              подготавливая данные для пилотных кампаний и обеспечивая выполнение требований клиентов.
+
+              Общее количество клиентов увеличилось с 13 до 30, а годовая выручка выросла 
+              с $10 млн до $16 млн в период с 2021 по 2024 год.
+
+          - layout: left
+            border: weak
+            title: Банк Открытие
+            sub_title: Руководитель направления
+            caption_1: Блок Риски. Retail Credit
+            link: www.open.ru
+            caption: Сентябрь 2019 - Январь 2021
+            description: |
+              <b>Крупный банк, входящий в ТОП-10 банков России</b>
+
+              Выявил ошибку в кредитном конвейере в рамках интеграции CRM с базой данных рисков, 
+              что привело к восстановлению кредитного процесса для 110 000 клиентов по 
+              зарплатным проектам и финансовому восстановлению в размере $3 млн за шестимесячный период.
+
+              Участвовал в разработке технических требований и тестировании основных таблиц кредитного 
+              конвейера PACL со стороны отдела рисков (кросс-функциональное сотрудничество с IT 
+              и техническими отделами). Результат: ускорение процессов анализа и 
+              одобрение клиентских партий для рассылки утвержденных предложений. 
+              Личный SLA — одобрение и анализ в течение 1 дня с момента автоматической подготовки партии.
+
+              Усовершенствовал методику расчета доходов на основе максимальной долговой нагрузки, 
+              учитывающую полные и частичные погашения кредитов, что позволило снизить риск валовых 
+              потерь (GL risk) на 0,4% для клиентов с низким кредитным рейтингом (на основе 
+              внутренней информации и данных Бюро кредитных историй).
+
+              Провел исследование внутреннего мошенничества в отделениях банка совместно с 
+              внутренней службой безопасности (мониторинг транзакций, изменение данных на 
+              этапе подачи/выдачи кредита, география снятия наличных). Результат: 
+              выявлено 6 подозрительных действий сотрудников, на основании которых 
+              были инициированы внутренние аудиты.
+
+              Обучал младших аналитиков в отделе оффлайн кредитования, онбординг по 
+              базовым навыкам работы в SQL и бизнес-процессам банка
+
+          - layout: left
+            border: weak
+            title: Ренессанс страхование
+            sub_title: Главный специалист
+            caption_1: CRM департамент
+            link: www.renins.ru
+            caption: Август 2018 - Август 2019
+            description: |
+              <b>Одна из крупнейших страховых компаний в России, предоставляющая полный 
+              спектр услуг в области авто-, имущественного и медицинского страхования.</b>
+
+              Совместно с отделом цифрового страхования, автоматизировал подготовку 
+              клиентских списков для колл-центра по задаче продления автостраховых контрактов, 
+              время подготовки было сокращено с 1,5 недель до 4 дней.
+
+              Разработал отчеты в SSRS для подразделения цифрового страхования, 
+              включая диаграммы и таблицы воронки продаж.
+
+              Взаимодействовал с IT-отделом для исправления ошибок в DWH и оптимизации процедур отчетности
+
+          - layout: left
+            border: weak
+            title: Альфа Банк
+            sub_title: Главный аналитик
+            caption_1: Финансовый блок CIB
+            link: www.alfabank.ru
+            caption: Декабрь 2017 - Август 2018
+            description: |
+              <b>Банк входит в ТОП-10 банков России и является лидером в сфере инновационных 
+              технологических решений для российского финансового сектора.</b>
+
+              Разработал автоматизированный калькулятор ROI для отдельных клиентов и сегментов CIB, 
+              используя готовую методологию для реализации скрипта на SQL
+
+              Совместно с HR-департаментом реализовал модель численности отдела продаж CIB с 
+              оценкой текущей нагрузки каждого менеджера и подразделения. Создал отчет в SRSS с 
+              ежедневными обновлениями и рекомендациями по оптимизации эффективности подразделения.
+
+              Отраслевая аналитика, анализ по данным первичных источников информации, отчетности 
+              Центрального Банка России, отчетности банков по МСФО
+
+          - layout: left
+            title: Банк Зенит
+            sub_title: Главный экономист
+            caption_1: Малый и средний бизнес SME
+            link: www.zenit.ru
+            caption: Октябрь 2016 - Декабрь 2017
+            description: |
+              <b>Универсальный банк ориентированный на комплексное обслуживание 
+              крупных компаний и состоятельных частных клиентов.</b>
+            
+              Автоматизировал подготовку отчетности по портфелю активов, пассивов и NPL для малых 
+              и средних предприятий (МСП), сократив время подготовки данных для еженедельных встреч 
+              с 2 дней до 3 часов, что позволило более оперативно анализировать динамику показателей 
+              с учётом детализации данных и географии сети.
+
+              Внедрил автоматизированную форму для расчета мотивации менеджеров по привлечению 
+              и сопровождению клиентов на основе объема выполненной работы, сократив время выполнения 
+              процесса с 1 рабочего дня до нескольких часов.
+
+              Разработал калькуляторы тарифов для отдела продаж (размер комиссии и переплат по кредитам 
+              в зависимости от параметров кредита), что избавило менеджеров от необходимости выполнять
+              расчеты самостоятельно.
+
+              Участвовал в сборе информации для анализа конкурентной среды по различным типам продуктов 
+              (кредиты, инвестиционное страхование, депозиты и т.д.), принимал участие в обсуждении новых
+              продуктов для повышения конкурентоспособности банка на рынке.
+
+
+      - title: Образование
+        layout: list
+        content:
+          - title: МГТУ им. Н.Э.Баумана
+            sub_title: Инженер физик
+            sub_title_2: Менеджер
+            caption: 2007 - 2013
+            description: |
+              Я получил два высших образования в Московском Государственном Техническом Университете 
+              имени Н. Э. Баумана — одном из лучших технических и инженерных вузов страны. 
+              В 2013 году я получил два диплома специалиста по техническому и экономическому направлению.
+          
+              За 6 лет я изучил инженерные дисциплины, программирование, статистику, а также 
+              экономические предметы. Моё образование дало мне глубокие знания в области техники
+              с упором на практические навыки, позволяющие воплощать знания в реальность, а не 
+              просто теоретизировать.
+
+              В университете я научился решать сложные задачи и быстро осваивать новое. 
+              Это помогает мне развиваться как специалисту и всегда оставаться в курсе современных технологий.
+      
+      - title: Вне работы
+        layout: text
+        content: | 
+          Когда я не пишу код, я читаю статьи на Medium или прохожу курсы, чтобы оставаться в тонусе и углублять
+          свои знания как в теоретической, так и в практической областях. 
+          В настоящее время меня особенно интересует дата-визуализация и изучение лучших практик в BI. 
+          Читаю блоги ведущих специалистов российского BI-сообщества в социальных сетях, чтобы развивать насмотренность и быть в курсе новых тенденций.
+
+          Также меня привлекает сфера машинного обучения. Я проходил курсы по этой теме и сейчас 
+          обдумываю свой собственный pet-проект.
+
+          В свободное время я провожу много времени с семьёй. Я много гуляю со своим сыном и 
+          радуюсь каждому моменту с ним, наблюдая, как он растёт и познаёт мир. 
+          Мы гуляем в парках и изучаем окрестности юга Британии, окунаясь в местную культуру и традиции.
+
+# Footer
+footer_references: "References on request"
+footer_show_references: false
