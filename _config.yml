@@ -33,79 +33,125 @@ languages:
   en:
     header:
       name: Ivan Zhukov
-      title: Data Analyst
+      title: Data & Analytics Lead
       download_cv: "Download my CV:"
     about:
       about_title: About Me
       about_profile_image: images/icon.jpg
       about_content: |
-        Hi, I'm Ivan Zhukov. 
-  
-        I have been working in banking analytics for seven years, specializing 
-        in portfolio analysis and CRM. During this time, I have progressed from working 
-        with <mark>Excel</mark>, mastered <mark>SQL</mark>, and now I use <mark>Python</mark> and <mark>Spark</mark>, continuously enhancing 
-        my technological skills. I prefer to work as an analyst with a focus on technical 
-        functionality: programming, working with databases, creating visualizations, 
-        and generating reports. I enjoy solving complex problems and developing effective
-        analytical tools that deliver measurable business impact.
+        Hi, I'm Ivan Zhukov.
 
-        Proficient in:  <mark>SQL</mark>,  <mark>Python</mark>
-        
-        Tools Mastery:  <mark>Apache Spark</mark>,  <mark>Jupyter Notebook</mark>,  <mark>Excel</mark>,  <mark>Tableau</mark>
+        I've spent more than ten years working with data in banking and fintech. I started
+        with portfolio analysis and CRM, and gradually moved into building <mark>data products</mark>:
+        helping financial platforms decide which offers to show, which external data to use,
+        and when it makes sense to contact a customer.
 
-        I am currently working remotely but am open to new opportunities in the United Kingdom
-        or in a remote format.
+        Today, I <mark>lead a team of five analysts</mark> at IT Finance. Alongside leading the team,
+        I work on product logic, write <mark>SQL</mark> and <mark>Python</mark>, and help turn
+        analytical ideas and <mark>machine-learning models</mark> into tools that are used in production.
+
+        What I enjoy most is following a problem all the way through: understanding what
+        needs to change, working out an approach, and seeing whether it actually helps once
+        people start using it. My background in engineering and management makes both the
+        technical detail and the business questions interesting to me.
+
+        I am currently working remotely but am open to new opportunities in the United Kingdom or in a remote format.
 
     content:
+      - title: Core Skills
+        layout: text
+        content: |
+          **Products & analytics:** Data products · Analytics leadership · Decisioning & optimisation · Credit scoring · External data & enrichment
+
+          **Programming & Data Processing:** Python, SQL, Pandas, Apache Spark, PySpark, Greenplum, Impala
+
+          **Machine Learning, Ranking & NLP:** CatBoost, LightGBM, XGBoost, DeepFM, multi-armed bandits, predictive modelling, classification, feature engineering, BERT-based NLP, model validation
+
+          **Data Engineering & MLOps:** Airflow, dbt, MLflow, automated data pipelines, ML experiment tracking, model performance monitoring, data quality monitoring
+
       - title: Experience
         layout: list
         content:
           - layout: left
             border: weak
-            title: Gidfinance
-            sub_title: Data Analyst
+            title: IT Finance
+            sub_title: Data Analyst Team Lead
             caption_1: Fintech B2B
-            caption: July 2024 - Present
+            caption: June 2024 - Present
             description: |
-              <b>A finance startup focused on data enrichment and lead generation 
-              for microfinance companies</b>
+              <b>A fintech software company building products for banks, consumer lenders
+              and financial marketplaces.</b>
 
-              I handle regular reports, A/B testing, and ad hoc projects, plus 
-              I track user activity in online channels with an eye on risk indicators.
+              I joined as a data analyst in June 2024 and have led the five-person analytics
+              team since February 2025. We work on offer ranking, scoring, external-data
+              enrichment and applied machine learning. I help set the direction, work through
+              the analytical approach with the team, and coordinate delivery with engineers
+              and the people using our products.
+
+              One of my main projects is TakeUp, which decides which lender offers a visitor
+              sees on a financial marketplace and in what order. I led its analytical design
+              and development, replacing manually configured placements with ranking based
+              on commercial performance, credit-risk signals and actual customer outcomes.
+              TakeUp improved revenue by 11.1% against the previous ranking logic on comparable
+              traffic. Across its wider deployment, estimated additional revenue has averaged
+              around £75,000 a month. It is now a core part of the company's WebEngine platform.
+
+              Another project asks a simple question: when is a message worth sending?
+              I designed and validated a machine-learning model to avoid low-value
+              communications, then coordinated its rollout. Across all business users,
+              it saves around £36,000 a month, or about 2% of communication costs, without
+              materially reducing valuable customer traffic.
+
+              The team's work also includes detecting bot visits, evaluating external
+              scoring models, and developing the Enrichment Service. A recurring part
+              of my work is deciding whether a new signal or model adds enough value
+              to justify its cost, then helping turn that finding into product logic.
 
           - layout: left
             border: weak
             title: oneFactor
-            sub_title: Data Analyst
+            sub_title: Lead Data Analyst / Product Manager
             caption_1:  Fintech B2B
             caption: January 2021 - February 2024
             description: |
-              <b>A high-tech company providing scoring and lead generation for banks and 
-              microfinance organisations</b>
+              <b>A B2B fintech company building scoring, data-enrichment and lead-generation
+              products for financial services.</b>
 
-              Created detailed daily reports monitoring the efficiency of lead generation campaigns for 10+ diverse clients, tracking key metrics to ensure data-driven decisions were made to improve marketing strategies.
-              
-              Revised campaign logic and signal scope, leading to the development of 45 new data pipelines, expanding the company’s repository to 200 pipelines. This enhanced data flow and campaign effectiveness.
-              
-              Addressed specific customer requests by conducting over 30 detailed analyses to check the accuracy of conversion funnels to identify areas for improvement, with the findings used to refine offers and services.
-              
-              Enhanced SMS campaigns by creating 16 new SMS templates, with 9 designed to better target different customer segments and 7 aimed at specific audiences. This approach led to a 3% boost in conversion rates.
-              
-              Facilitated pre-sales activities, preparing data for pilot campaigns, ensuring client requirements were met. Total customers increased from 13 to 30 and annual revenue from $10m to $16m between 2021 and 2024.
+              At oneFactor, I worked on turning external data into useful signals for banks,
+              lenders and insurers. A major part of this was a reusable Spark component that
+              converted pseudonymised communication events into behavioural features for
+              scoring, customer segmentation and lead generation.
+
+              I led the product and analytical side: deciding which events mattered, how to
+              classify them, what time windows and thresholds to use, and what the output
+              should look like. I worked with data engineers to put that logic into production
+              and scale it. This enabled 45 new production pipelines and made the feature
+              logic reusable across client projects.
+
+              I also carried out more than 30 client pilots and validation studies. These
+              covered questions such as whether we could match enough customers, whether
+              a score added useful information, and whether the economics worked in practice.
+              I presented the findings to client and commercial teams to help decide what
+              to launch or change. I also developed 16 communication scenarios, contributing
+              to an approximately 3% improvement in conversion.
+
+              This work supported the expansion of the lead-generation business, whose client
+              base grew from 13 to 30 organisations and annual revenue from about £6.5 million
+              to £10 million.
 
           - layout: left
             border: weak
             title: Open Bank
-            sub_title: Data Analyst
+            sub_title: Lead Data Analyst
             caption_1: Risk Department. Retail Credit
             link: www.open.ru
             caption: September 2019 - January 2021
             description: |
               <b>One of the top 10 largest banks in Russia</b>
 
-              Identified and rectified a critical error in the credit conveyor system within the CRM integration, resolving services for 110,000 clients and leading to an approximate financial recovery of $3m over six months.
+              Identified and helped fix a critical error in the credit decisioning system within the CRM integration, restoring services for 110,000 clients and contributing to an approximate financial recovery of £2.3 million over six months.
               
-              Developed and tested guidance for the PACL credit conveyor, expediting client approvals and offers. This collaboration with IT and Tech accelerated analysis processes and ensured swift client batch approvals.
+              Developed and tested guidance for the PACL credit decisioning process, expediting client approvals and offers. This collaboration with IT and technology teams accelerated analysis and client batch approvals.
               
               Devised a revenue calculation method based on peak debt load, reducing gross loss risk by 0.4% for clients with low credit scores, considering full and partial loan repayments to enhance risk management strategies.
               
@@ -163,102 +209,139 @@ languages:
         layout: list
         content:
           - title: Bauman University
-            sub_title: Master of Engineering in Nuclear Power Technology
-            sub_title_2: Master of Management in Industrial Management
+            sub_title: Nuclear Power Engineering
+            sub_title_2: Industrial Management
             caption: 2007 - 2013
             description: |
-              My education gave me a deep technical foundation with a focus on practical skills. I learned to solve complex problems quickly and continuously acquire new knowledge to stay current with modern technologies.
-              
-              I studied at Bauman Moscow State Technical University — one of the best technical and engineering universities in the country. In 2013, I earned two specialist Masters’ degrees  in technical and economic fields.
-              
-              Over these six years, I studied engineering disciplines, programming, statistics, as well as economic subjects.
+              I studied nuclear power engineering and industrial management at Bauman Moscow
+              State Technical University, graduating in 2013 with two Russian Specialist Diplomas.
 
-      - title: When I'm Not Coding
+              Over six years, I studied engineering, programming, statistics and economics.
+              That combination still shapes how I work: I enjoy understanding how a system
+              works in detail and how it fits into a business.
+
+      - title: Outside Work
         layout: text
         content: |
-          When I’m not coding, I love keeping up with the latest in data and tech. I’m always reading Medium articles or taking online courses to stay sharp, and right now, I’m especially into data visualisation and BI best practices. I follow a few top BI experts on social media, which helps me stay up-to-date with new trends.
-      
-          I’m also curious about machine learning and have taken a few courses on it. I’m thinking about launching my own project in this area to apply what I’ve learned.
-          
-          Outside work, I’m all about family time—I spend a lot of my free time exploring southern Britain with my son. We enjoy the parks, the countryside, and just soaking up the local culture.
+          I like reading about data and technology and trying out ideas in code. I'm
+          particularly interested in how machine learning is used in real products,
+          and how to tell whether it is making a useful difference.
+
+          Away from the screen, I spend time with my family. My son and I enjoy exploring
+          Britain, visiting parks and the countryside, and discovering new places together.
 
 
   ru:
     header:
       name: Иван Жуков
-      title: Аналитик данных
+      title: Руководитель команды аналитики
       download_cv: "Скачать резюме:"
     about:
       about_title: Обо мне
       about_profile_image: images/icon.jpg
       about_content: |
-        Привет, меня зовут Иван Жуков. 
+        Привет, меня зовут Иван Жуков.
 
-        Уже семь лет я работаю в банковской аналитике, специализируясь на портфельном анализе и CRM. 
-        За это время я прошёл путь от работы в <mark>Excel</mark>, освоил <mark>SQL</mark>, 
-        а сейчас использую <mark>Python</mark> и <mark>Spark</mark>, постоянно совершенствуясь в технологиях. 
-        Я предпочитаю работать как аналитик с упором на технический функционал: программирую, работаю с базами данных,
-        создаю визуализации и формирую отчёты. Мне нравится решать комплексные задачи и создавать эффективные 
-        аналитические инструменты, которые приносят измеримый эффект для бизнеса.
-        
-        Мой технический стек: <mark>SQL</mark>, <mark>Python</mark>, <mark>Apache Spark</mark>, <mark>Excel</mark>, 
-        <mark>Tableau</mark>
-        
+        Больше десяти лет я работаю с данными в банках и финтехе. Начинал с портфельного
+        анализа и CRM, а постепенно перешёл к <mark>созданию продуктов на основе данных</mark>:
+        какое кредитное предложение показать пользователю, какие внешние данные
+        использовать и когда имеет смысл связаться с клиентом.
+
+        Сейчас я <mark>руковожу командой из пяти аналитиков</mark> в IT Finance. Занимаюсь логикой
+        продуктов, пишу на <mark>SQL</mark> и <mark>Python</mark> и помогаю доводить
+        аналитические идеи и <mark>модели машинного обучения</mark> до работы в продакшене.
+
+        Больше всего мне нравится пройти с задачей весь путь: разобраться, что нужно
+        изменить, придумать подход и увидеть, помогает ли он на практике. Благодаря
+        образованию в инженерии и менеджменте мне одинаково интересны технические
+        детали и то, как решение работает для бизнеса.
+
         Сейчас я работаю удаленно, но открыт для новых возможностей в Великобритании или в удалённом формате.
   
     content:
+      - title: Основные навыки
+        layout: text
+        content: |
+          **Продукты и аналитика:** Продукты на основе данных · Руководство аналитикой · Логика принятия решений и оптимизация · Кредитный скоринг · Внешние данные и обогащение
+
+          **Программирование и обработка данных:** Python, SQL, Pandas, Apache Spark, PySpark, Greenplum, Impala
+
+          **Машинное обучение, ранжирование и NLP:** CatBoost, LightGBM, XGBoost, DeepFM, многорукие бандиты, предиктивное моделирование, классификация, конструирование признаков, NLP на базе BERT, валидация моделей
+
+          **Инженерия данных и MLOps:** Airflow, dbt, MLflow, автоматизированные пайплайны данных, отслеживание ML-экспериментов, мониторинг качества моделей, мониторинг качества данных
+
       - title: Опыт работы
         layout: list
         content:
           - layout: left
             border: weak
-            title: Gidfinance
-            sub_title: Аналитик данных
+            title: IT Finance
+            sub_title: Руководитель команды аналитики
             caption_1: Финтех B2B
-            caption: Июль 2024 - по н.в.
+            caption: Июнь 2024 - по н.в.
             description: |
-              <b>Финтех стартап, специализирующийся на обогащении данных 
-              и лидогенерации для микрофинансовых организаций.</b>
-              
-              Решаю Ad Hoc задачи и анализирую активность пользователей в интернет-каналах 
-              с учётом рисковых показателей, участвую в проведении A/B тестов, занимаюсь построением регулярной отчетности
+              <b>Финтех-компания, которая разрабатывает программные продукты для банков,
+              кредитных организаций и финансовых маркетплейсов.</b>
+
+              Я пришёл аналитиком в июне 2024 года, а с февраля 2025-го руковожу командой
+              из пяти аналитиков. Мы занимаемся ранжированием предложений, скорингом,
+              обогащением данных и прикладным машинным обучением. Я определяю приоритеты,
+              вместе с командой прорабатываю аналитические подходы и координирую внедрение
+              с разработчиками и пользователями наших продуктов.
+
+              Один из моих основных проектов — TakeUp. Он определяет, какие предложения
+              кредиторов увидит посетитель финансового маркетплейса и в каком порядке.
+              Я отвечал за аналитическую разработку и развитие продукта: вместо ручной
+              расстановки предложений мы стали учитывать их доходность, кредитный риск
+              и реальные результаты взаимодействия с клиентами. TakeUp дал прирост выручки
+              на 11,1% относительно прежней логики на сопоставимом трафике.
+              При более широком использовании продукта оценочная дополнительная выручка
+              составила в среднем около £75 тыс. в месяц. Сейчас TakeUp — один из ключевых
+              компонентов платформы WebEngine.
+
+              Другой проект отвечает на простой вопрос: когда сообщение стоит отправлять?
+              Я разработал и проверил модель машинного обучения, которая позволяет
+              отказываться от малоэффективных коммуникаций, и координировал её внедрение.
+              По всем бизнес-пользователям она экономит около £36 тыс. в месяц — примерно
+              2% расходов на коммуникации — без существенного сокращения ценного
+              клиентского трафика.
+
+              В команде мы также выявляем ботов по поведению на сайтах, оцениваем внешние
+              скоринговые модели и развиваем Enrichment Service. Мне часто нужно разобраться,
+              даёт ли новый сигнал или модель достаточно пользы с учётом своей стоимости,
+              а затем помочь перенести этот вывод в логику продукта.
 
           - layout: left
             border: weak
-            title: OneFactor
-            sub_title: Аналитик данных
+            title: oneFactor
+            sub_title: Ведущий аналитик / Менеджер продукта
             caption_1: Финтех B2B
             caption: Январь 2021 - Февраль 2024
             description: |
-              <b>Высокотехнологичная компания, входящая в группу МегаФон, специализирующаяся на скоринговых услугах 
-              и лидогенерации на основе внешних данных для банков и микрофинансовых организаций.</b>
+              <b>B2B-финтех-компания, которая создаёт продукты для скоринга, обогащения
+              данных и лидогенерации в финансовом секторе.</b>
 
-              Создал подробные ежедневные отчеты по мониторингу эффективности кампаний в части 
-              лидогенерации для более чем 10 различных клиентов. Показатели для мониторинга и анализа: 
-              объем отправок, стоимость выдачи, конверсия прокси, каннибализация сигналов, выполнение 
-              плана отправки лидов.
+              В oneFactor я занимался тем, как превратить внешние данные в полезные
+              сигналы для банков, кредитных и страховых компаний. Значительная часть
+              этой работы — переиспользуемый компонент на Spark, который преобразовывал
+              псевдонимизированные коммуникационные события в поведенческие признаки
+              для скоринга, сегментации и лидогенерации.
 
-              Улучшил текущие кампании. Провёл ревизию логики компании и оптимизировал охват сигналов
-              на основе мониторинга и разовых исследований (удалил менее эффективные сигналы и 
-              добавил новые). Разработал новые пайплайны для обработки данных различных 
-              телекоммуникационных данных (автоматическая обработка в Spark для бизнес-подхода). 
-              Внедрил 45 пайплайнов для различных типов сигналов, 
-              общее количество текущих пайплайнов в репозитории продукта — 200.
+              Я отвечал за продуктовую и аналитическую логику: какие события учитывать,
+              как их классифицировать, какие временные окна и пороги использовать,
+              что должно получиться на выходе. Вместе с дата-инженерами мы внедрили
+              эту логику в продакшен и масштабировали её. Это позволило запустить
+              45 новых пайплайнов в продакшене и использовать общую логику
+              формирования признаков в разных клиентских проектах.
 
-              Обрабатывал разовые запросы клиентов, проведя более 30 детальных анализов для проверки 
-              точности конверсионных воронок и выявления возможностей для их улучшения. 
-              Полученные результаты использовались для совершенствования предложений и услуг.
+              Я также провёл больше 30 клиентских пилотов и исследований: проверял охват
+              и сопоставление клиентов, полезность скорингов, качество лидов и экономику.
+              Обсуждал результаты с клиентами и коммерческой командой, чтобы решить,
+              что запускать и что менять. Кроме того, разработал 16 сценариев коммуникации,
+              которые помогли улучшить конверсию примерно на 3%.
 
-              Разработал новые типы SMS-сообщений для описания клиентского опыта в работе 
-              с банками, МФО и страховыми компаниями (проанализировал и разработал 16 типов сигналов 
-              из 43), 9 из них были разработаны для более точного таргетинга различных сегментов клиентов, 
-              а 7 – для конкретных аудиторий. 
-
-              Выполнял предпродажных мероприятия, направленные на быстрое тестирование гипотез, 
-              подготавливая данные для пилотных кампаний и обеспечивая выполнение требований клиентов.
-
-              Общее количество клиентов увеличилось с 13 до 30, а годовая выручка выросла 
-              с $10 млн до $16 млн в период с 2021 по 2024 год.
+              Эта работа поддержала развитие направления лидогенерации: число клиентов
+              выросло с 13 до 30 организаций, а годовая выручка — примерно с £6,5 млн до £10 млн.
 
           - layout: left
             border: weak
@@ -271,8 +354,8 @@ languages:
               <b>Крупный банк, входящий в ТОП-10 банков России</b>
 
               Выявил ошибку в кредитном конвейере в рамках интеграции CRM с базой данных рисков, 
-              что привело к восстановлению кредитного процесса для 110 000 клиентов по 
-              зарплатным проектам и финансовому восстановлению в размере $3 млн за шестимесячный период.
+              что помогло восстановить кредитный процесс для 110 000 клиентов по
+              зарплатным проектам и вернуть около £2,3 млн за шесть месяцев.
 
               Участвовал в разработке технических требований и тестировании основных таблиц кредитного 
               конвейера PACL со стороны отдела рисков (кросс-функциональное сотрудничество с IT 
@@ -371,32 +454,22 @@ languages:
             sub_title_2: Менеджер
             caption: 2007 - 2013
             description: |
-              Я получил два высших образования в Московском Государственном Техническом Университете 
-              имени Н. Э. Баумана — одном из лучших технических и инженерных вузов страны. 
-              В 2013 году я получил два диплома специалиста по техническому и экономическому направлению.
-          
-              За 6 лет я изучил инженерные дисциплины, программирование, статистику, а также 
-              экономические предметы. Моё образование дало мне глубокие знания в области техники
-              с упором на практические навыки, позволяющие воплощать знания в реальность, а не 
-              просто теоретизировать.
+              Я учился в МГТУ имени Н. Э. Баумана по двум направлениям — ядерная энергетика
+              и промышленный менеджмент. В 2013 году получил два диплома специалиста.
 
-              В университете я научился решать сложные задачи и быстро осваивать новое. 
-              Это помогает мне развиваться как специалисту и всегда оставаться в курсе современных технологий.
+              За шесть лет изучал инженерные дисциплины, программирование, статистику
+              и экономику. Это сочетание до сих пор влияет на мой подход к работе:
+              мне интересно и разобраться в устройстве системы, и понять её роль в бизнесе.
       
       - title: Вне работы
         layout: text
         content: | 
-          Когда я не пишу код, я читаю статьи на Medium или прохожу курсы, чтобы оставаться в тонусе и углублять
-          свои знания как в теоретической, так и в практической областях. 
-          В настоящее время меня особенно интересует дата-визуализация и изучение лучших практик в BI. 
-          Читаю блоги ведущих специалистов российского BI-сообщества в социальных сетях, чтобы развивать насмотренность и быть в курсе новых тенденций.
+          Люблю читать о данных и технологиях и пробовать идеи в коде. Особенно интересно,
+          как машинное обучение работает в реальных продуктах и как понять,
+          приносит ли оно пользу.
 
-          Также меня привлекает сфера машинного обучения. Я проходил курсы по этой теме и сейчас 
-          обдумываю свой собственный pet-проект.
-
-          В свободное время я провожу много времени с семьёй. Я много гуляю со своим сыном и 
-          радуюсь каждому моменту с ним, наблюдая, как он растёт и познаёт мир. 
-          Мы гуляем в парках и изучаем окрестности юга Британии, окунаясь в местную культуру и традиции.
+          Вне работы провожу время с семьёй. Мы с сыном гуляем в парках, выбираемся
+          за город и вместе открываем новые места в Британии.
 
 # Footer
 footer_references: "References on request"
