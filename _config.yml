@@ -74,7 +74,7 @@ languages:
         content:
           - layout: left
             border: weak
-            title: IT Finance
+            title: IT-Finance
             sub_title: Data Analyst Team Lead
             caption_1: Fintech B2B
             caption: June 2024 - Present
@@ -275,7 +275,7 @@ languages:
         content:
           - layout: left
             border: weak
-            title: IT Finance
+            title: IT-Finance
             sub_title: Руководитель команды аналитики
             caption_1: Финтех B2B
             caption: Июнь 2024 - по н.в.
